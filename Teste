@@ -15,4 +15,4 @@ public class Teste {
     produto1.setQuantidade (5);
 
     if (produto1.equals(produto2)) {System.out.println("Iguais");}
-   
+    else System.out.println("Diferentes");    
