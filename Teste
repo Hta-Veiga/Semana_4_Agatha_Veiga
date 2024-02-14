@@ -1,0 +1,18 @@
+//3- Compares dois produtos.
+
+
+public class Teste {
+    Teste produto1 = new Produto ();
+    produto1.setNome ("Celular");
+    produto1.setDescricao ("5G e com 256gb de memória");
+    produto1.setPrecoUnitario (2000);
+    produto1.setQuantidade (5);
+
+    Produto produto2 = new Produto();
+    produto1.setNome ("Celular");
+    produto1.setDescricao ("4G e com 128gb de memória");
+    produto1.setPrecoUnitario (1000);
+    produto1.setQuantidade (5);
+
+    if (produto1.equals(produto2)) {System.out.println("Iguais");}
+   
